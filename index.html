@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="51-modern-default.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="countdown-game">
+      <div class="game">
+        <label>秒数：</label>
+        <input
+          type="number"
+          value="10"
+          id="number"
+          class="kintoneplugin-input-text"
+        />
+        <button id="start-button" class="kintoneplugin-button-dialog-ok">
+          ゲームスタート
+        </button>
+        <button id="reset-button" class="kintoneplugin-button-dialog-cancel">
+          ゲームリセット
+        </button>
+        <div id="count"></div>
+      </div>
+      <hr />
+      <div>
+        <ul id="playerList" class="player-list"></ul>
+      </div>
+    </div>
+    <script src="https://unpkg.com/obniz/obniz.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

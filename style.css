@@ -1,0 +1,46 @@
+#count {
+  font-size: 5rem;
+  height: 15vh;
+}
+#number {
+  width: 80px;
+}
+.countdown-game {
+  text-align: center;
+}
+.player-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.assign {
+  height: 5vh !important;
+}
+.player {
+  border: 1px solid #000;
+  height: 8vh;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.red {
+  color: #f00;
+}
+.hide {
+  visibility: hidden;
+}
+
+.player-list li:nth-child(1) .assign {
+  background-color: #74b9ff;
+}
+.player-list li:nth-child(2) .assign {
+  background-color: #ffeaa7;
+}
+.player-list li:nth-child(3) .assign {
+  background-color: #fab1a0;
+}
+.player-list li:nth-child(4) .assign {
+  background-color: #55efc4;
+}
